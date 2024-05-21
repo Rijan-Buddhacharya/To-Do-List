@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &choice);
 
     if(choice < 1 || choice > 4) {
-        printf("Invalid number. You can only select a number between 1 and 3.\n");
+        printf("Invalid number. You can only select a number between 1 and 4.\n");
     } else {
         printf("You have selected: %d\n", choice);
         if(choice == 1) {
